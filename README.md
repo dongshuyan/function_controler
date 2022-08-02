@@ -27,4 +27,4 @@ Return the return value of func,return None if timeout
 from function_controler.func_ctrl import func_ctrl  
 func_ctrl(func=FUNCTION_NAME,args=(ARGS),limit_time=LIMIT_TIME,kill=BOOL,allow_log=BOOL)  
   
-See demo.py for details  
+See [demo.py](https://github.com/dongshuyan/function_controler/blob/main/demo.py) for details  
