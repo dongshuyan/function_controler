@@ -6,9 +6,6 @@ __pycache__/
 # C extensions
 *.so
 
-#demo file
-demo.py
-
 # Distribution / packaging
 .Python
 build/
@@ -29,6 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+*.pypirc
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

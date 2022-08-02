@@ -86,10 +86,10 @@ def func_ctrl(func,args=(),limit_time=0,kill=True,allow_log=True):
     """
     :param 
         func:被限制运行时长的函数
-        args：此函数的参数
+        args:此函数的参数
         limit_time: 设置最大允许执行时长,单位:秒 如果设置0则没有限制
         kill:超时之后是否结束线程
-        allow_log：是否允许打印日志
+        allow_log:是否允许打印日志
     :return: 未超时返回被装饰函数返回值,超时则返回 None
     """
     @limit_decor(limit_time,kill)

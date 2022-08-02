@@ -4,11 +4,11 @@ setup(
     name = "function_controler",     
     version = "0.0.1", 
     keywords = ["pip", "function_controler","running time","control"],			
-    description = "Control the maximum running time of a function.Referred to the program of 一杯闪光喵.",	
-    long_description = "Control the maximum running time of a function.",
+    description = "Control the maximum running time of a function.",	
+    long_description = "Control the maximum running time of a function. Referred to the program of yibeishanguangmiao.",
     license = "MIT Licence",		
 
-    url = "https://github.com/Adenialzz/SongUtils", 
+    url = "https://github.com/dongshuyan/function_controler", 
     author = "sauterne",			
     author_email = "ssauterne@qq.com",
 
