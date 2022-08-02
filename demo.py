@@ -2,26 +2,26 @@ import time
 from function_controler.func_ctrl import func_ctrl
 
 def a2():
-    print("开始执行a2")
+    print("A2 Start")
     time.sleep(1)
-    print("执行完成")
+    print("A2 Finished")
     a=2
     return a
 
 
 def a3(a,b):
-    print("开始执行a3")
+    print("A3 Start")
     time.sleep(3)
-    print("执行完成a3")
+    print("A3 Finished")
     return a+b
 
 
 def a4(a,b):
-    print("开始执行a4")
+    print("A4 Start")
     for i in range(5):
         print(i)
         time.sleep(1)
-    print("执行完成a4")
+    print("A4 Finished")
     return a+b
 
 a=func_ctrl(func=a2,limit_time=0.5)
