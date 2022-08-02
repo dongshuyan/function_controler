@@ -22,7 +22,6 @@ Whether to print the logs, type: bool, defeat: allow_log=True
 Return the return value of func,return None if timeout  
 未超时返回被装饰函数返回值,超时则返回 None  
 
-
 # Useage
 from function_controler.func_ctrl import func_ctrl  
 func_ctrl(func=FUNCTION_NAME,args=(ARGS),limit_time=LIMIT_TIME,kill=BOOL,allow_log=BOOL)  
