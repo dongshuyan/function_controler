@@ -26,5 +26,9 @@ Return the return value of func,return None if timeout
 # Useage
 from function_controler.func_ctrl import func_ctrl  
 func_ctrl(func=FUNCTION_NAME,args=(ARGS),limit_time=LIMIT_TIME,kill=BOOL,allow_log=BOOL)  
+![Demo(https://ptpimg.me/2s4cb6.png)  
   
 See [demo.py](https://github.com/dongshuyan/function_controler/blob/main/demo.py) for details  
+
+# Reference
+[Python控制函数运行时间](https://www.cnblogs.com/lyxdw/p/10033118.html)  
