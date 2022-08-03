@@ -82,7 +82,7 @@ def limit_decor(limit_time,kill=True):
     return functions
 
 
-def func_ctrl(func,args=(),limit_time=0,kill=True,allow_log=True):
+def func_maxtime(func,args=(),limit_time=0,kill=True,allow_log=True):
     """
     :param 
         func:被限制运行时长的函数
@@ -111,3 +111,5 @@ def func_ctrl(func,args=(),limit_time=0,kill=True,allow_log=True):
             logger.info('finish running '+func.__name__+'')
     return a
 
+def main():
+    print('Usage:\nfunc_maxtime(func=FUNCTION_NAME,args=(ARGS),limit_time=LIMIT_TIME,kill=BOOL,allow_log=BOOL) ')

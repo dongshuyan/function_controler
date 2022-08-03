@@ -3,12 +3,16 @@ import io
 
 setup(
     name = "function_controler",     
-    version = "0.0.2", 
+    version = "0.0.5", 
     keywords = ["pip", "function_controler","running time","control"],			
     description = "Control the maximum running time of a function.",	
     long_description=io.open("README.md", "r", encoding='utf-8').read(),
     long_description_content_type="text/markdown",
-    license = "MIT Licence",		
+    license = "MIT Licence",	
+
+    entry_points = {
+        'console_scripts': ['function_controler_Usage=function_controler.time_ctrl:main'],
+    },
 
     url = "https://github.com/dongshuyan/function_controler", 
     author = "sauterne",			
