@@ -82,7 +82,7 @@ def limit_decor(limit_time,kill=True):
     return functions
 
 
-def func_maxtime(func,args=(),limit_time=0,kill=True,allow_log=True):
+def func_maxtime(func,args=(),limit_time=0,kill=True,allow_log=False):
     """
     :param 
         func:被限制运行时长的函数

@@ -25,23 +25,23 @@ def a4(a,b):
     return a+b
 
 a=func_maxtime(func=a2,limit_time=0.5)
-print(a,end='\n\n')
+print('Result:',a,end='\n\n')
 a=func_maxtime(func=a2,limit_time=2)
-print(a,end='\n\n')
+print('Result:',a,end='\n\n')
 
 a=func_maxtime(func=a3,args=(1,2),limit_time=2,allow_log=False)
-print(a,end='\n\n')
+print('Result:',a,end='\n\n')
 a=func_maxtime(func=a3,args=(1,2),limit_time=4,allow_log=False)
-print(a,end='\n\n')
+print('Result:',a,end='\n\n')
 
-a=func_maxtime(func=a4,args=(1,2),limit_time=2,kill=False)
-print(a,end='\n\n')
+a=func_maxtime(func=a4,args=(1,2),limit_time=2,kill=False,allow_log=True)
+print('Result:',a,end='\n\n')
 a=func_maxtime(func=a4,args=(1,2),limit_time=2,kill=False,allow_log=False)
-print(a,end='\n\n')
+print('Result:',a,end='\n\n')
 a=func_maxtime(func=a4,args=(1,2),limit_time=0,kill=False,allow_log=False)
-print(a,end='\n\n')
+print('Result:',a,end='\n\n')
 
 a=func_maxtime(func=a4,args=(1,2),limit_time=2,kill=True,allow_log=False)
-print(a,end='\n\n')
+print('Result:',a,end='\n\n')
 a=func_maxtime(func=a4,args=(1,2),limit_time=0,kill=True,allow_log=False)
-print(a,end='\n\n')
+print('Result:',a,end='\n\n')
