@@ -15,8 +15,8 @@ The maximum execution time in seconds. If you set 0, there is no limit, type: fl
 Whether to stop the thread after the timeout, type: bool, defeat: kill=True  
 超时之后是否结束线程, type: bool, defeat: kill=True  
 ## allow_log
-Whether to print the logs, type: bool, defeat: allow_log=True  
-是否允许打印日志, type: bool, defeat: allow_log=True  
+Whether to print the logs, type: bool, defeat: allow_log=False
+是否允许打印日志,默认不打印 type: bool, defeat: allow_log=False
 
 # Return
 Return the return value of func,return None if timeout  

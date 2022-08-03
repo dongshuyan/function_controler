@@ -3,7 +3,7 @@ import io
 
 setup(
     name = "function_controler",     
-    version = "0.0.6", 
+    version = "0.0.7", 
     keywords = ["pip", "function_controler","running time","control"],			
     description = "Control the maximum running time of a function.",	
     long_description=io.open("README.md", "r", encoding='utf-8').read(),
